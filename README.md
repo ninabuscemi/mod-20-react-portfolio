@@ -20,7 +20,11 @@ The objective of this challenge is to use my React skills to create a portfolio 
 
 ## Usage
 
-1. Clone the repository from the GitHub repo link.
+1. Download or clone the repository:
+
+    ```
+    git clone git@github.com:ninabuscemi/mod-20-react-portfolio.git
+    ```
 
 2. Run from the command line:
 
