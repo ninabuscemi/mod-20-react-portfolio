@@ -16,7 +16,7 @@ The objective of this challenge is to use my React skills to create a portfolio 
 
 ## Installation
 
-[Download repo](https://github.com/ninabuscemi/Mod-18-social-hub)
+[Download repo](https://github.com/ninabuscemi/mod-20-react-portfolio)
 
 ## Usage
 
