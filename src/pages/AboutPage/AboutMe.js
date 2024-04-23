@@ -2,9 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <section>
-      {/* Your About Me content goes here */}
-    </section>
+    <p>add about me and boostrap later</p>
   );
 }
 
