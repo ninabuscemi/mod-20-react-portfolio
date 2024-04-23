@@ -1,1 +1,52 @@
-# mod-20-react-portfolio
+# Module 20 React Challenge: React Portfolio
+
+![License Badge](https://badgen.net/static/license/MIT/blue)
+
+## Description
+
+The objective of this challenge is to use my React skills to create a portfolio displaying numerous projects I've completed over the course of 6 months and deploy it to Netlify.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshot](#screenshot)
+- [License](#license)
+- [Questions](#questions)
+
+## Installation
+
+[Download repo](https://github.com/ninabuscemi/Mod-18-social-hub)
+
+## Usage
+
+1. Clone the repository from the GitHub repo link.
+
+2. Run from the command line:
+
+    ```
+    install node.js
+    ```
+4. Run to install dependencies:
+
+    ```
+    npm install
+    ```
+
+5. Run to start the server:
+
+    ```
+    npm start
+    ```
+
+## Screenshot
+
+## License
+
+The project is under MIT License.
+ 
+## Questions
+
+If you have any questions regarding the project, please, feel free to contact me:
+
+- GitHub: [ninabuscemi](https://github.com/ninabuscemi)
