@@ -26,6 +26,7 @@ const Styles = styled.div`
   .navbar-brand {
     margin-left: 100px; /* Push Navbar.Brand to the right */
   }
+  
 `;
 
 

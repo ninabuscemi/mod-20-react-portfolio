@@ -7,6 +7,10 @@
   text-align: left;
 }
 
+.railway-font {
+  font-family: 'Raleway', sans-serif !important;
+}
+
 @media (max-device-width: 600px) {
   .mobile-text {
     text-align: center;

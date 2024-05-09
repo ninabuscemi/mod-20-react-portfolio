@@ -13,6 +13,10 @@ body {
   height: 380px;
 }
 
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
 .card {
   width: 550px;
 }

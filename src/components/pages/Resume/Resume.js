@@ -1,12 +1,14 @@
 import React from 'react';
+import resumeFile from '../../../assets/images/files/ninaresume.pdf';
 
 const Resume = () => {
   return (
     <div>
       <h2>My Resume</h2>
+
+      Download my resume: <button onClick={() => window.open(resumeFile, '_blank')} 
+      className="btn btn-primary"> Download Resume </button>
       <p>
-        Insert your resume content here. You can include your education, work experience,
-        skills, certifications, and any other relevant information.
       </p>
       <h3>Proficiencies</h3>
       <ul>
@@ -26,8 +28,6 @@ const Resume = () => {
 </ul>  
 
 <p>
-        Feel free to format your resume content and proficiencies according to your preference.
-        You can also use HTML elements or other React components to structure your content.
       </p>
     </div>
   );
