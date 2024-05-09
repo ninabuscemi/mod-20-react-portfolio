@@ -25,7 +25,7 @@ const Styles = styled.div`
   }
   .navbar-brand {
     margin-right: auto; /* Push Navbar.Brand to the left */
-    margin-left: 170px; /* Add some left margin to move the logo */
+    margin-left: 20px; /* Add some left margin to move the logo */
   }
 `;
 
@@ -36,7 +36,7 @@ function Navigation({ currentPage, handlePageChange }) {
     <Styles>
       <Navbar bg="transparent" expand='lg'>
         <Navbar.Brand>
-          <img src={logo} alt="Logo" style={{ height: '130px' }} /> {/* Add the logo image */}
+          <img src={logo} alt="Logo" style={{ height: '120px' }} /> {/* Add the logo image */}
         </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

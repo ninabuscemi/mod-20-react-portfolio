@@ -5,4 +5,15 @@ body {
   padding: 0;
 }
 
-/* Add more styles as needed */
+.App {
+  min-height: 100vh; /* Ensure the container takes up the full viewport height */
+  display: flex;
+  flex-direction: column; /* Stack the header, main content, and footer vertically */
+}
+
+.main-content {
+  flex-grow: 1; /* Allow the main content to grow and take up remaining space */
+  margin: 0 auto; /* Center the main content horizontally */
+  max-width: 1300px; /* Set a maximum width for the content */
+  padding: 0 20px; /* Add some horizontal padding for spacing */
+}
