@@ -11,7 +11,6 @@ function Project(props) {
 
     return (
         <Container>
-
             <Row md={3} >
                 {props.projects.map((project) => (
                     <Col className='col-12 col-md-6 col-lg-4'>
