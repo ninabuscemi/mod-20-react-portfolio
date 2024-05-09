@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import './about.css';
+import portfolioPic from './portfolio_pic.jpg'; // Import the image file
 
 
 
@@ -32,9 +33,10 @@ function About() {
                         <Col xs={12} md={4} className='d-flex justify-content-center '>
                         <div>
                             <Image
-                                className='about-img img-responsive center-block d-block mx-auto'
-                                src='../assets/src/portfolio_pic.png'
-                                roundedCircle />
+    className='about-img img-responsive center-block d-block mx-auto'
+    src={portfolioPic} // Use the imported variable as the source
+    roundedCircle
+/>
                         </div>
                     </Col>
                 </Row>
