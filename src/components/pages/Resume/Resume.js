@@ -10,12 +10,22 @@ const Resume = () => {
       </p>
       <h3>Proficiencies</h3>
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
-        <li>Proficiency 3</li>
-        {/* Add more proficiencies as needed */}
-      </ul>
-      <p>
+    Front end:
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>jQuery</li>
+</ul>
+<ul> Back end:
+        <li> Python</li>
+        <li> MYSQL</li>
+        <li>MongoDB</li>
+        <li>Express</li>
+        <li>React</li>
+        <li>Node</li>
+</ul>  
+
+<p>
         Feel free to format your resume content and proficiencies according to your preference.
         You can also use HTML elements or other React components to structure your content.
       </p>
