@@ -24,8 +24,7 @@ const Styles = styled.div`
     padding-bottom: 10px; /* Adjust padding for spacing */
   }
   .navbar-brand {
-    margin-right: auto; /* Push Navbar.Brand to the left */
-    margin-left: 20px; /* Add some left margin to move the logo */
+    margin-left: 100px; /* Push Navbar.Brand to the right */
   }
 `;
 
