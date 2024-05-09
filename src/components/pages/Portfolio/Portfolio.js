@@ -29,17 +29,7 @@ const projects = [
 
   {
     id: 2,
-    title: "Emoji Translator (Team Project)",
-    tools: "Express.js, JSON, Render",
-    image: projectImage3,
-    description: "A website used to write and save notes.",
-    repo: "https://github.com/ninabuscemi/note-generator",
-    live: "https://note-taking-generator.onrender.com/",
-  },
-
-  {
-    id: 3,
-    title: "Note Taking Generator",
+    title: "Note taking generator",
     tools: "Express.js, JSON, Render",
     image: projectImage3,
     description: "A website used to write and save notes.",
