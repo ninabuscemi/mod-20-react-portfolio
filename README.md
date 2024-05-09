@@ -1,10 +1,10 @@
-# Module 20 React Challenge: React Portfolio
+# React Portfolio
 
 ![License Badge](https://badgen.net/static/license/MIT/blue)
 
 ## Description
 
-The objective of this challenge is to use my React skills to create a portfolio displaying numerous projects I've completed over the course of 6 months and deploy it to Netlify.
+I used my React skills to create a portfolio displaying numerous projects I've completed over the course of 6 months and deploy it to Netlify.
 
 ## Table of Contents
 
