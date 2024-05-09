@@ -1,18 +1,37 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
 
-const Header = () => {
+import Navigation from './Navigation';
+import About from './pages/AboutPage/AboutMe';
+import Portfolio from './pages/Portfolio/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume/Resume';
+
+export default function Header() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+        return <Resume />;
+      }
+    return <About />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <header>
-      <h1>My Portfolio</h1>
-      <nav>
-        <NavLink to="/" exact activeClassName="active">About Me</NavLink>
-        <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
-        <NavLink to="/contact" activeClassName="active">Contact</NavLink>
-        <NavLink to="/resume" activeClassName="active">Resume</NavLink>
-      </nav>
-    </header>
+    <div>
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
   );
 }
-
-export default Header;
