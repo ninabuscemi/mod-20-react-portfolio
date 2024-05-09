@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from '../assets/images/nb_logo.png'; // Assuming your logo file is named 'logo.png'
 
 const Styles = styled.div`
   a, .navbar-nav .nav-link {
@@ -16,7 +17,7 @@ const Styles = styled.div`
     background-color: black;
     color: white !important;
   }
-   .navbar {
+  .navbar {
     display: flex;
     justify-content: center;
     padding-top: 10px; /* Adjust padding for spacing */
@@ -24,21 +25,19 @@ const Styles = styled.div`
   }
   .navbar-brand {
     margin-right: auto; /* Push Navbar.Brand to the left */
-    margin-left: auto; /* Push Navbar.Brand to the right */
+    margin-left: 170px; /* Add some left margin to move the logo */
   }
 `;
 
 
 function Navigation({ currentPage, handlePageChange }) {
 
-    return (
-        <Styles>
-            <Navbar bg="transparent" expand='lg'>
-
-                    <Navbar.Brand>
-                        <h1>Nina Buscemi</h1>
-                    </Navbar.Brand>
-  
+  return (
+    <Styles>
+      <Navbar bg="transparent" expand='lg'>
+        <Navbar.Brand>
+          <img src={logo} alt="Logo" style={{ height: '130px' }} /> {/* Add the logo image */}
+        </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Container>
