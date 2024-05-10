@@ -62,4 +62,4 @@ The project is under MIT License.
 
 If you have any questions regarding the project, please, feel free to contact me:
 
-- GitHub: [ninabuscemi](https://github.com/ninabuscemi)
+- GitHub: [Nina Buscemi](https://github.com/ninabuscemi)
