@@ -2,19 +2,18 @@
   font-family: 'Raleway', 'Helvetica';
 }
 
+p {
+  font-family: 'Helvetica';
+}
+
 body {
   background: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/1df9fc81381729.5cfe535103e56.jpg');
   background-size: cover;
-
 }
 
 /* cards */
 .card-img {
   height: 380px;
-}
-
-h1 {
-  font-family: 'Raleway', sans-serif;
 }
 
 .card {
