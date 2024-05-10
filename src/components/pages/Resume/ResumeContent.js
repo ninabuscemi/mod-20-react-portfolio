@@ -6,7 +6,7 @@ const Resume = () => {
     <div>
       <h2>My Resume</h2>
 
-      Download my resume: <button onClick={() => window.open(resumeFile, '_blank')} 
+      <button onClick={() => window.open(resumeFile, '_blank')} 
       className="btn btn-primary"> Download Resume </button>
       <p>
       </p>
