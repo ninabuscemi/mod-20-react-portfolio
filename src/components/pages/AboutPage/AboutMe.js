@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import './about.css';
-import './AboutMe.css';
 import portfolioPic from './portfolio_pic.jpg'; // Import the image file
 
 function About() {
@@ -14,10 +13,9 @@ function About() {
                 <Row className='about-body '>
                     <Col xs={12} md={8} className='justify-content-center'>
                         <div className='about-intro p-4 mobile-text'>
-                        <h1 className="railway-font">
-                        Hi, I'm <strong style={{ color: '#3BB169' }}>Nina Buscemi</strong>.
-                        </h1>                        
-                        </div>
+<h1 className="raleway-font">
+  Hi, I'm <strong style={{ color: '#3BB169' }}>Nina Buscemi</strong>.
+</h1>                        </div>
                         <div className='about-description p-4 mobile-text'>
                             <p>
                             I’m a certified Full Stack Web Developer and UX designer with a B.A. in Graphic Design. My journey into web development began with a passion for creativity and problem-solving. 

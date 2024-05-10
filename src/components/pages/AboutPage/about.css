@@ -7,8 +7,8 @@
   text-align: left;
 }
 
-.railway-font {
-  font-family: 'Raleway', sans-serif !important;
+.raleway-font {
+  font-family: 'Raleway', sans-serif;
 }
 
 @media (max-device-width: 600px) {
