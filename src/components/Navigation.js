@@ -1,10 +1,17 @@
 import React from 'react';
+
+// Importing styled-components library
 import styled from 'styled-components';
+
+// Importing components from react-bootstrap
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/images/nb_logo.png'; // Assuming your logo file is named 'logo.png'
 
+// Importing the logo image
+import logo from '../assets/images/nb_logo.png';
+
+// Styled component for custom styles
 const Styles = styled.div`
   a, .navbar-nav .nav-link {
     color: black;
@@ -29,19 +36,25 @@ const Styles = styled.div`
   
 `;
 
-
+// Navigation component
 function Navigation({ currentPage, handlePageChange }) {
 
   return (
     <Styles>
+
+      {/* Navbar component from react-bootstrap */}
       <Navbar bg="transparent" expand='lg'>
         <Navbar.Brand>
           <img src={logo} alt="Logo" style={{ height: '120px' }} /> {/* Add the logo image */}
         </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
+      
+      {/* Navbar toggle button for responsive view */}
+            <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
+              <Navbar.Collapse id="navbarScroll">
                 <Container>
                     <Nav className="m-auto flex-grow-1 justify-content-evenly">
+                      
+                      {/* Navigation links */}
                         <Nav.Link
                             href="#aboutme" onClick={() => handlePageChange('Home')}
                             className={currentPage === 'About' ? 'active' : 'nav-link'}>
@@ -70,4 +83,5 @@ function Navigation({ currentPage, handlePageChange }) {
     );
 }
 
+// Exporting the Navigation component
 export default Navigation;
