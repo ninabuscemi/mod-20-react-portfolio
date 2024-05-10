@@ -45,10 +45,9 @@ function About() {
                         <Col xs={12} md={4} className='d-flex justify-content-center '>
                         <div>
                             <Image
-    className='about-img img-responsive center-block d-block mx-auto'
-    src={portfolioPic} // Use the imported variable as the source
-    roundedCircle
-/>
+                            className='about-img img-responsive center-block d-block mx-auto'
+                            src={portfolioPic} // Use the imported variable as the source
+                            roundedCircle/>
                         </div>
                     </Col>
                 </Row>

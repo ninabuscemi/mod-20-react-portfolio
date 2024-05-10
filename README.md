@@ -55,7 +55,7 @@ Click to [download the repo](https://github.com/ninabuscemi/mod-20-react-portfol
 
 ## Deployed Application
 
-Click [here]() to view the live site
+Click [here](https://main--ninasportfolio.netlify.app/) to view the live site
 
 ## License
 
