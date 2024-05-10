@@ -13,24 +13,25 @@ This portfolio website showcases my latest work as a developer and demonstrates 
 
 ## Table of Contents
 
+- [Mockup](#mockup)
+- [Deployed Application](#link)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Live Application](#link)
 - [License](#license)
 - [Questions](#questions)
 
-## Installation
+## Mockup
 
 ![Screenshot](./src/assets/images/screenshot_portfolio.png)
 
 
+## Deployed Application
 
-Click to [download the repo](https://github.com/ninabuscemi/mod-20-react-portfolio)
+Click [here](https://main--ninasportfolio.netlify.app/) to view the live site
 
 
-## Usage
+## Installation
 
-1. Download or clone the repository:
+1. [Download](https://github.com/ninabuscemi/mod-20-react-portfolio) or clone the repository:
 
     ```
     git clone git@github.com:ninabuscemi/mod-20-react-portfolio.git
@@ -52,10 +53,6 @@ Click to [download the repo](https://github.com/ninabuscemi/mod-20-react-portfol
     ```
     npm start
     ```
-
-## Deployed Application
-
-Click [here](https://main--ninasportfolio.netlify.app/) to view the live site
 
 ## License
 
