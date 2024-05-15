@@ -14,7 +14,7 @@ This portfolio website showcases my latest work as a developer and demonstrates 
 ## Table of Contents
 
 - [Mockup](#mockup)
-- [Deployed Application](#link)
+- [Deployed Application](#deployed-application)
 - [Installation](#installation)
 - [License](#license)
 - [Questions](#questions)
